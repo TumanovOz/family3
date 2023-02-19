@@ -1,0 +1,107 @@
+body, h1, h2, h3,h4, p, a {
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+  color: whitesmoke;
+  
+}
+
+* {
+  box-sizing: border-box;
+  
+}
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  background-color: #696969;
+}
+
+.header {
+  height: 100vh;
+  background-color: #eee;
+  background-image: url(https://sun9-25.userapi.com/impg/ukAPjiE9hPERpEX3vB-RGXpFuoQohuAwTDdIOQ/p1p4xkeYlTE.jpg?size=2560x1440&quality=95&sign=a7998a4edbdab8a037da0b784f0207d2&type=album);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.header-title {
+  font-size: 70px;
+  color: whitesmoke;
+  /*text-transform: uppercase;*/
+  font-weight: 500;
+  margin: auto;
+  font-style: italic;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+  display: flex;
+  text-align: center;
+  
+}
+
+.content {
+  font-size: 0;
+  width: 790px;
+  margin: 50px auto 10px auto;
+}
+
+.card {
+  width: 350px;
+  margin-bottom: 70px;
+  padding: 20px 20px 50px;
+  display: inline-block;
+  margin-right: 70px;
+  box-shadow: 0px 0px 40px #FFDEAD;
+}
+
+.no-right-margin {
+    margin-right: 0;
+}
+
+.card-title {
+  font-weight: 500;
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.card-text {
+  font-size: 22px;
+}
+
+.card-image {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.footer {
+  height: 100px;
+  background-color: #474A51;
+  display: flex;
+}
+
+.footer-author {
+  font-size: 28px;
+  color: #000000;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.foot {
+  color: #000000;
+  margin: auto;
+  text-align: center;
+
+}
+
+.card-vira {
+  font-size: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+
+
