@@ -89,11 +89,11 @@ body {
   margin-bottom: 10px;
 }
 
-.footer {
+/*.footer {
   height: 120px;
   background-color: #474A51;
   display: flex;
-}
+}*/
 
 .footer-author {
   font-size: 28px;
