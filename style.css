@@ -79,6 +79,12 @@ body {
     display: inline-block;
     margin-right: 70px;
     box-shadow: 0px 0px 15px #FF00FF;
+    transition: transform 0.5s;
+
+}
+
+.card:hover {
+    transform: translateY(-10px);
 }
 
 .no-right-margin {
