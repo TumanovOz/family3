@@ -1,28 +1,42 @@
-body,
-h1,
-h2,
 h3,
 h4,
-p,
 a {
-    margin: 0;
-    font-size: 100%;
+    margin: 0;/*отступ от краёв*/
+    font-size: 100%;/*размер шрифта*/
     font-weight: normal;
-    color: whitesmoke;
+    color: whitesmoke;/*цвет шрифта*/
 
+}
+
+h1 {
+    color: #fff;
+    font-size: 90px;
+    line-height: 90px;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 30px;
 }
 
 h5 {
-    font-size: 12px;
+    font-size: 12px;/*размер шрифта. находится в footer*/
+}
+
+p {
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 .footer {
-    background-color: #2F4F4F;
-    position: fixed;
+    background-color: black;
+    /*position: fixed;*/
     right: 0;
     bottom: 0;
     text-align: center;
     width: 100%;
+    height: 100px;
     font-size: 30px;
     font-weight: bold;
     color: #fafaff;
@@ -30,40 +44,91 @@ h5 {
 
 
 * {
-    box-sizing: border-box;
+    box-sizing: border-box;/*без этого картинки в один ряд встают*/
 
 }
 
 body {
-    font-family: 'Helvetica', 'Arial', sans-serif;
-    background-color: black;
+    font-family: 'Verdana', sans-serif; /*'Georgia', serif; 'Courier', monospace; 'Snell Roundhand', cursive; 'Helvetica', 'Arial', sans-serif; (Verdana - пока это лучший шрифт)*/
+    margin: 0;/*отступ от краёв*/
+    font-size: 100%;/*размер шрифта*/
+    background-color: black;/*основной цвет фона*/
+    font-weight: normal;/*не понятно*/
+    color: whitesmoke;/*цвет шрифта*/
 }
 
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    color: yellow;
+    background-color: yellow;
+}
+
+
+
+
+
 .header {
+width: 100%;
     height: 100vh;
-    background-color: #eee;
-    background-image: url(https://sun9-25.userapi.com/impg/ukAPjiE9hPERpEX3vB-RGXpFuoQohuAwTDdIOQ/p1p4xkeYlTE.jpg?size=2560x1440&quality=95&sign=a7998a4edbdab8a037da0b784f0207d2&type=album);
-    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://sun9-77.userapi.com/impg/VZzNSGJkGKEkzE9WgqvAVoK6PYTkTgC54mD2wg/mYnn47sOHaM.jpg?size=2560x1440&quality=95&sign=13059e7746ed65adf38b77557e78c81d&type=album);
+    /*фоновая картинка и разметка*/
     background-position: center;
-    text-align: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+
+nav {
+    flex: 1;
+    text-align: right;
+    display: block;
+    position: fixed;
+    top: 0;
+    padding-top: 10px;
+    height: 90px;
+    width: 90vw;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;/*выстраивание в одну линию*/
+    margin-left: 40px;/*растояние между словами*/
+}
+
+nav ul li a {
+    text-decoration: none;/*не понятно*/
+    color: white;/*текст*/
+    font-size: 20px;/*размер ссылки*/
 }
 
 .header-title {
-    font-size: 30px;
-    color: whitesmoke;
-    /*text-transform: uppercase;*/
-    font-weight: 500;
+    font-size: 30px;/*размер текста*/
+    color: whitesmoke;/*не понятно*/
+    /*text-transform: uppercase;*//*делает буквы заглавнымми*/
     margin: auto;
-    font-style: italic;
+    font-style: italic;/*наклон шрифта*/
+    font-weight: 500;/*шире делает, уже нет*/
 }
 
-.overlay {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, .5);
+.navbar {
+    height: 12%;
     display: flex;
-    text-align: center;
+    align-items: center;
+}
 
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col {
+    flex-basis: 70%;
 }
 
 .content {
@@ -78,7 +143,7 @@ body {
     padding: 20px 20px 50px;
     display: inline-block;
     margin-right: 70px;
-    box-shadow: 0px 0px 15px #FF00FF;
+    box-shadow: 0px 0px 10px #FF00FF;
     transition: transform 0.5s;
 
 }
@@ -132,4 +197,3 @@ body {
     margin-bottom: 40px;
     text-align: center;
 }
-
