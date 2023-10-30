@@ -10,8 +10,8 @@ a {
 
 h1 {
     color: #fff;
-    font-size: 90px;
-    line-height: 90px;
+    font-size: 70px;
+    line-height: 80px;
     font-style: italic;
 }
 
@@ -25,7 +25,7 @@ h5 {
 
 p {
     color: #fff;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 30px;
 }
 
@@ -103,7 +103,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;/*не понятно*/
     color: white;/*текст*/
-    font-size: 20px;/*размер ссылки*/
+    font-size: 30px;/*размер ссылки*/
 }
 
 .header-title {
