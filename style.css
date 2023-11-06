@@ -10,8 +10,8 @@ a {
 
 h1 {
     color: #fff;
-    font-size: 70px;
-    line-height: 80px;
+    font-size: 40px;
+    line-height: 50px;
     font-style: italic;
 }
 
@@ -25,10 +25,12 @@ h5 {
 
 p {
     color: #fff;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 30px;
+    font-style: italic;
     text-indent: 30px;
 }
+
 
 .footer {
     background-color: black;
@@ -73,14 +75,14 @@ body {
 
 .header {
 width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://sun9-77.userapi.com/impg/VZzNSGJkGKEkzE9WgqvAVoK6PYTkTgC54mD2wg/mYnn47sOHaM.jpg?size=2560x1440&quality=95&sign=13059e7746ed65adf38b77557e78c81d&type=album);
-    /*фоновая картинка и разметка*/
-    background-position: center;
-    background-size: cover;
-    padding-left: 8%;
-    padding-right: 8%;
-    box-sizing: border-box;
+height: 100vh;
+background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://sun9-77.userapi.com/impg/VZzNSGJkGKEkzE9WgqvAVoK6PYTkTgC54mD2wg/mYnn47sOHaM.jpg?size=2560x1440&quality=95&sign=13059e7746ed65adf38b77557e78c81d&type=album);
+/*фоновая картинка и разметка*/
+background-position: center;
+background-size: cover;
+padding-left: 5%;
+padding-right: 5%;
+box-sizing: border-box;
 }
 
 
@@ -104,7 +106,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;/*не понятно*/
     color: white;/*текст*/
-    font-size: 30px;/*размер ссылки*/
+    font-size: 40px;/*размер ссылки*/
 }
 
 .header-title {
@@ -129,21 +131,22 @@ nav ul li a {
 }
 
 .col {
-    flex-basis: 80%;
+    flex-basis: 70%;
 }
 
 .content {
     font-size: 0;
     width: 790px;
-    margin: 50px auto 10px auto;
+    margin: 10px auto 10px auto;
 }
 
 .card {
-    width: 350px;
-    margin-bottom: 70px;
-    padding: 20px 20px 50px;
+    width: 370px;/*Ширина рамки*/
+    /*height: 400px;*//*Высота рамки*/
+    margin-bottom: 70px;/*Расстояние между картинкама по высоте*/
+    padding: 10px 10px 10px;/*Положение картинки в рамке*/
     display: inline-block;
-    margin-right: 70px;
+    margin-right: 30px;
     box-shadow: 0px 0px 10px #FF00FF;
     transition: transform 0.5s;
 
@@ -158,7 +161,7 @@ nav ul li a {
 }
 
 .card-title {
-    font-weight: 500;
+    font-weight: 100px;
     font-size: 28px;
     margin-bottom: 40px;
 }
@@ -169,6 +172,7 @@ nav ul li a {
 
 .card-image {
     width: 100%;
+    height: 100%;
     margin-bottom: 10px;
 }
 
