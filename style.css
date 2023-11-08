@@ -106,7 +106,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;/*не понятно*/
     color: white;/*текст*/
-    font-size: 40px;/*размер ссылки*/
+    font-size: 30px;/*размер ссылки*/
 }
 
 .header-title {
